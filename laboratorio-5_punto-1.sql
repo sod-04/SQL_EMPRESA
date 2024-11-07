@@ -39,3 +39,7 @@ SELECT * FROM empleados
 
 USE empresa;
 SELECT * FROM cargo;
+
+---------- Seleccionar empleados que ganan más de 7,000,000
+
+SELECT * FROM empleados WHERE salario > 7000000;
