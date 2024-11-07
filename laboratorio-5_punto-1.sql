@@ -34,3 +34,8 @@ VALUES ('Gerente', '500000'),
 
 USE empresa;
 SELECT * FROM empleados
+
+---------- Seleccionar todos los cargos
+
+USE empresa;
+SELECT * FROM cargo;
