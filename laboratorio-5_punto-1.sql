@@ -50,3 +50,9 @@ USE empresa;
 UPDATE empleados
 SET salario = 6500000
 WHERE nombre = 'Ana Gómez';
+
+-------- Eliminar un empleado 
+
+USE empresa;
+DELETE FROM empleados
+WHERE nombre = 'Luis Castro';
