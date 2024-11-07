@@ -43,3 +43,10 @@ SELECT * FROM cargo;
 ---------- Seleccionar empleados que ganan más de 7,000,000
 
 SELECT * FROM empleados WHERE salario > 7000000;
+
+--------- Actualizar el salario de un empleado 
+
+USE empresa;
+UPDATE empleados
+SET salario = 6500000
+WHERE nombre = 'Ana Gómez';
