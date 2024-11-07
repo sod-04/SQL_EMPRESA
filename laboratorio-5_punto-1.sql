@@ -62,3 +62,8 @@ WHERE nombre = 'Luis Castro';
 USE empresa;
 SELECT * FROM empleados
 WHERE cargo = 'desarrollador';
+
+------- Insertar un nuevo empleado con un cargo existente
+
+INSERT INTO empleados (nombre, cargo, salario)
+VALUES ('Marta López', 'asistente', '3000000');
