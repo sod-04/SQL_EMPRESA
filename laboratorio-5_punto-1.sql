@@ -17,3 +17,9 @@ CREATE TABLE cargo (
     Descripcion VARCHAR (200),
     Salario VARCHAR (100) NOT NULL
 );
+
+USE empresa;
+INSERT INTO empleados (nombre, cargo, salario)
+VALUES ('Juan Pérez', 'Gerente', '7500000'), 
+('Ana Gómez', 'Desarrollador', '6000000'), 
+('Luis Castro','Proyectos', '10000000');
