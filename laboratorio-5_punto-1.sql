@@ -29,3 +29,8 @@ INSERT INTO cargo (nombre_cargo,salario)
 VALUES ('Gerente', '500000'),
 ('Asistente', '250000'),
 ('Desarrollador', '400000');
+
+---------- Realizar la consulta de los datos de los empleados
+
+USE empresa;
+SELECT * FROM empleados
